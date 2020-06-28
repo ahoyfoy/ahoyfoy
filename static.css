@@ -71,155 +71,6 @@ Error message and password prompt
 	width: 100%;
 }
 
-.tc-sidebar-header {
-	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
-}.tc-tiddler-info {
-	
-  -webkit-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-     -moz-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-          box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-
-}@media screen {
-	.tc-tiddler-frame {
-		
-  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-     -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-
-	}
-}@media (max-width: 960px) {
-	.tc-tiddler-frame {
-		
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-
-	}
-}.tc-page-controls button svg, .tc-tiddler-controls button svg, .tc-topbar button svg {
-	
-  -webkit-transition: fill 150ms ease-in-out;
-     -moz-transition: fill 150ms ease-in-out;
-          transition: fill 150ms ease-in-out;
-
-}.tc-tiddler-controls button.tc-selected,
-.tc-page-controls button.tc-selected {
-	
-  -webkit-filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-     -moz-filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-          filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-
-}.tc-tiddler-frame input.tc-edit-texteditor {
-	
-  -webkit-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-     -moz-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-
-}.tc-edit-tags {
-	
-  -webkit-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-     -moz-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-
-}.tc-tiddler-frame .tc-edit-tags input.tc-edit-texteditor {
-	
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-
-	border: none;
-	outline: none;
-}textarea.tc-edit-texteditor {
-	font-family: ;
-}canvas.tc-edit-bitmapeditor  {
-	
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-     -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-
-}.tc-drop-down {
-	border-radius: 4px;
-	
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-     -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-
-}.tc-block-dropdown {
-	border-radius: 4px;
-	
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-     -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-
-}.tc-modal {
-	border-radius: 6px;
-	
-  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-     -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-          box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-
-}.tc-modal-footer {
-	border-radius: 0 0 6px 6px;
-	
-  -webkit-box-shadow: inset 0 1px 0 #fff;
-     -moz-box-shadow: inset 0 1px 0 #fff;
-          box-shadow: inset 0 1px 0 #fff;
-;
-}.tc-alert {
-	border-radius: 6px;
-	
-  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-     -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-          box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-
-}.tc-notification {
-	border-radius: 6px;
-	
-  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-     -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-          box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-
-	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
-}.tc-sidebar-lists .tc-tab-set .tc-tab-divider {
-	border-top: none;
-	height: 1px;
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-
-}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-
-}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-
-}.tc-message-box img {
-	
-  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-     -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-          box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-
-}.tc-plugin-info {
-	
-  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-     -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-          box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-
-}
-
-
 /*
 ** Start with the normalize CSS reset, and then belay some of its effects
 *//*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -588,7 +439,7 @@ template {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }html:-webkit-full-screen {
-	background-color: #fff;
+	background-color: #fbfbfb;
 }body.tc-body {
 	font-size: 14px;
 	line-height: 20px;
@@ -597,7 +448,7 @@ template {
 
 
 	color: #333333;
-	background-color: #fff;
+	background-color: #fbfbfb;
 	fill: #333333;
 }h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
@@ -668,14 +519,14 @@ template {
 	font-weight: bold;
 	margin-top: 6px;
 }button, textarea, input, select {
-	outline-color: #5778d8;
+	outline-color: #006d8f;
 }textarea,
 input[type=text],
 input[type=search],
 input[type=""],
 input:not([type]) {
 	color: #333333;
-	background: #ffffff;
+	background: #fbfbfb;
 }input[type="checkbox"] {
   vertical-align: middle;
 }.tc-muted {
@@ -692,7 +543,7 @@ input:not([type]) {
 	line-height: 1.2;
 	color: #333333;
 	vertical-align: middle;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	border: solid 1px #bbb;
 	border-bottom-color: #bbb;
 	border-radius: 3px;
@@ -742,12 +593,12 @@ pre > code {
 a.tc-tiddlylink {
 	text-decoration: none;
 	font-weight: 500;
-	color: #5778d8;
+	color: #006d8f;
 	-webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }.tc-sidebar-lists a.tc-tiddlylink {
-	color: #999999;
+	color: #006d8f;
 }.tc-sidebar-lists a.tc-tiddlylink:hover {
-	color: #444444;
+	color: #003649;
 }button.tc-tiddlylink:hover,
 a.tc-tiddlylink:hover {
 	text-decoration: underline;
@@ -760,13 +611,13 @@ a.tc-tiddlylink:hover {
 	font-style: italic;
 }a.tc-tiddlylink-external {
 	text-decoration: underline;
-	color: #0000ee;
+	color: #006d8f;
 	background-color: inherit;
 }a.tc-tiddlylink-external:visited {
-	color: #0000aa;
+	color: #375719;
 	background-color: inherit;
 }a.tc-tiddlylink-external:hover {
-	color: inherit;
+	color: #004d65;
 	background-color: inherit;
 }/*
 ** Drag and drop styles
@@ -782,7 +633,7 @@ a.tc-tiddlylink:hover {
 	font-size: 16.9px;
 	font-weight: bold;
 	line-height: 20px;
-	color: #ffffff;
+	color: #fbfbfb;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
 	white-space: nowrap;
 	vertical-align: baseline;
@@ -790,7 +641,7 @@ a.tc-tiddlylink:hover {
 	border-radius: 20px;
 }.tc-tiddler-dragger-cover {
 	position: absolute;
-	background-color: #fff;
+	background-color: #fbfbfb;
 }.tc-dropzone {
 	position: relative;
 }.tc-dropzone.tc-dragover:before {
@@ -852,9 +703,9 @@ a.tc-tiddlylink:hover {
 	font-size: 1.6666em;
 }.tc-btn-boxed:hover {
 	background: #bbb;
-	color: #ffffff;
+	color: #fbfbfb;
 }html body.tc-body .tc-btn-boxed:hover svg {
-	fill: #ffffff;
+	fill: #fbfbfb;
 }.tc-btn-rounded {
 	font-size: 0.5em;
 	line-height: 2;
@@ -862,14 +713,14 @@ a.tc-tiddlylink:hover {
 	margin: 1px;
 	border: 1px solid #bbb;
 	background: #bbb;
-	color: #ffffff;
+	color: #fbfbfb;
 	border-radius: 2em;
 }html body.tc-body .tc-btn-rounded svg {
 	font-size: 1.6666em;
-	fill: #ffffff;
+	fill: #fbfbfb;
 }.tc-btn-rounded:hover {
 	border: 1px solid #bbb;
-	background: #ffffff;
+	background: #fbfbfb;
 	color: #bbb;
 }html body.tc-body .tc-btn-rounded:hover svg {
 	fill: #bbb;
@@ -893,8 +744,8 @@ a.tc-tiddlylink:hover {
 	padding: 8px;
 	margin: 4px 8px 4px 8px;
 	background: #34c734;
-	color: #ffffff;
-	fill: #ffffff;
+	color: #fbfbfb;
+	fill: #fbfbfb;
 	border: none;
 	border-radius: 2px;
 	font-size: 1.2em;
@@ -905,9 +756,9 @@ a.tc-tiddlylink:hover {
 	height: 2em;
 	width: 2em;
 	vertical-align: middle;
-	fill: #ffffff;
+	fill: #fbfbfb;
 }.tc-primary-btn {
- 	background: #5778d8;
+ 	background: #006d8f;
 }.tc-sidebar-lists input {
 	color: #333333;
 }.tc-sidebar-lists button {
@@ -1116,8 +967,8 @@ a.tc-tiddlylink:hover {
 */.tc-tiddler-frame {
 	position: relative;
 	margin-bottom: 28px;
-	background-color: #f1f1f1;
-	border: 1px solid #b1b1b1;
+	background-color: #fbfbfb;
+	border: 1px solid #fbfbfb;
 }
 .tc-tiddler-info {
 	padding: 14px 42px 14px 42px;
@@ -1157,10 +1008,10 @@ a.tc-tiddlylink:hover {
 	font-weight: 300;
 	font-size: 2.35em;
 	line-height: 1.2em;
-	color: #00c;
+	color: #000000;
 	margin: 0;
 }.tc-site-title {
-	color: #00c;
+	color: #000000;
 }.tc-tiddler-title-icon {
 	vertical-align: middle;
 	margin-right: .1em;
@@ -1223,7 +1074,7 @@ a.tc-tiddlylink:hover {
 .tc-tiddler-frame iframe.tc-edit-texteditor {
 	padding: 3px 3px 3px 3px;
 	border: 1px solid #cccccc;
-	background-color: #eee;
+	background-color: #f8f8f8;
 	line-height: 1.3em;
 	-webkit-appearance: none;
 	font-family: ;
@@ -1235,7 +1086,7 @@ a.tc-tiddlylink:hover {
 	background: #ffe476;
 	border: 1px solid #b99e2f;
 }canvas.tc-edit-bitmapeditor  {
-	border: 6px solid #ffffff;
+	border: 6px solid #fbfbfb;
 	cursor: crosshair;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -1255,7 +1106,7 @@ a.tc-tiddlylink:hover {
 	overflow: hidden; /* https://github.com/Jermolene/TiddlyWiki5/issues/282 */
 }html body.tc-body.tc-single-tiddler-window {
 	margin: 1em;
-	background: #f1f1f1;
+	background: #fbfbfb;
 }.tc-single-tiddler-window img,
 .tc-single-tiddler-window svg,
 .tc-single-tiddler-window canvas,
@@ -1281,14 +1132,14 @@ a.tc-tiddlylink:hover {
 }.tc-editor-toolbar button.tc-text-editor-toolbar-item-start-group {
 	margin-left: 11px;
 }.tc-editor-toolbar button.tc-selected {
-	background-color: #5778d8;
+	background-color: #006d8f;
 }.tc-editor-toolbar button svg {
 	width: 1.6em;
 	height: 1.2em;
 }.tc-editor-toolbar button:hover {
 	background-color: #444444;
-	fill: #ffffff;
-	color: #ffffff;
+	fill: #fbfbfb;
+	color: #fbfbfb;
 }.tc-editor-toolbar .tc-text-editor-toolbar-more {
 	white-space: normal;
 }.tc-editor-toolbar .tc-text-editor-toolbar-more button {
@@ -1406,7 +1257,7 @@ a.tc-tiddlylink:hover {
 }.tc-drop-down {
 	min-width: 380px;
 	border: 1px solid #bbb;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	padding: 7px 0 7px 0;
 	margin: 4px 0 0 0;
 	white-space: nowrap;
@@ -1452,8 +1303,8 @@ a.tc-tiddlylink:hover {
 }.tc-drop-down .tc-file-input-wrapper button {
 	color: #333333;
 }.tc-drop-down a:hover, .tc-drop-down button:hover, .tc-drop-down .tc-file-input-wrapper:hover button {
-	color: #ffffff;
-	background-color: #5778d8;
+	color: #fbfbfb;
+	background-color: #006d8f;
 	text-decoration: none;
 }.tc-drop-down .tc-tab-buttons button {
 	background-color: #ececec;
@@ -1471,7 +1322,7 @@ a.tc-tiddlylink:hover {
 	position: absolute;
 	min-width: 220px;
 	border: 1px solid #bbb;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	padding: 7px 0;
 	margin: 4px 0 0 0;
 	white-space: nowrap;
@@ -1493,8 +1344,8 @@ a.tc-tiddlylink:hover {
 	padding: 4px 14px 4px 7px;
 	color: #bbb;
 }.tc-block-dropdown a:hover {
-	color: #ffffff;
-	background-color: #5778d8;
+	color: #fbfbfb;
+	background-color: #006d8f;
 	text-decoration: none;
 }.tc-search-results {
 	padding: 0 7px 0 7px;
@@ -1519,9 +1370,9 @@ a.tc-tiddlylink:hover {
 	vertical-align: middle;
 }.tc-image-chooser a:hover,
 .tc-colour-chooser a:hover {
-	background: #5778d8;
+	background: #006d8f;
 	padding: 0px;
-	border: 3px solid #5778d8;
+	border: 3px solid #006d8f;
 }.tc-image-chooser a svg,
 .tc-image-chooser a img {
 	display: inline-block;
@@ -1556,7 +1407,7 @@ a.tc-tiddlylink:hover {
 	background-color: #333333;
 }.tc-modal {
 	z-index: 1100;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	border: 1px solid #999999;
 }@media (max-width: 55em) {
 	.tc-modal {
@@ -1730,17 +1581,17 @@ a.tc-tiddlylink:hover {
 	padding: 3px;
 }.tc-manager-list-item-heading-selected {
 	font-weight: bold;
-	color: #ffffff;
-	fill: #ffffff;
+	color: #fbfbfb;
+	fill: #fbfbfb;
 	background-color: #333333;
 }.tc-manager-list-item-heading:hover {
-	background: #5778d8;
-	color: #ffffff;
+	background: #006d8f;
+	color: #fbfbfb;
 }.tc-manager-list-item-content {
 	display: flex;
 }.tc-manager-list-item-content-sidebar {
     flex: 1 0;
-    background: #eee;
+    background: #f8f8f8;
     border-right: 0.5em solid #bbb;
     border-bottom: 0.5em solid #bbb;
     white-space: nowrap;
@@ -1828,16 +1679,16 @@ a.tc-tiddlylink:hover {
 	padding: 4px 4px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-	border: 1px solid #ffffff;
+	border: 1px solid #fbfbfb;
 	border-bottom-none;
 	background: #ff0000;
-	color: #ffffff;
-	fill: #ffffff;
+	color: #fbfbfb;
+	fill: #fbfbfb;
 }.tc-drafts-list a:hover {
 	text-decoration: none;
 	background: #333333;
-	color: #ffffff;
-	fill: #ffffff;
+	color: #fbfbfb;
+	fill: #fbfbfb;
 }.tc-drafts-list a svg {
 	width: 1em;
 	height: 1em;
@@ -1852,17 +1703,17 @@ a.tc-tiddlylink:hover {
 	display: flex;
 	border: 1px solid #bbb;
 	fill: #bbb;
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	margin: 0.5em 0 0.5em 0;
 	padding: 4px;
     align-items: center;
 }.tc-plugin-info-sub-plugins .tc-plugin-info {
     margin: 0.5em;
-	background: #ffffff;
+	background: #fbfbfb;
 }.tc-plugin-info-sub-plugin-indicator {
 	margin: -16px 1em 0 2em;
 }.tc-plugin-info-sub-plugin-indicator button {
-	color: #ffffff;
+	color: #fbfbfb;
 	background: #333333;
 	border-radius: 8px;
     padding: 2px 7px;
@@ -1878,8 +1729,8 @@ a.tc-tiddlylink:hover {
 	background: repeating-linear-gradient(45deg, #aa0, #aa0 10px, #888 10px, #888 20px);
 }a.tc-tiddlylink.tc-plugin-info:hover {
 	text-decoration: none;
-	background-color: #5778d8;
-	color: #ffffff;
+	background-color: #006d8f;
+	color: #fbfbfb;
 	fill: #333333;
 }a.tc-tiddlylink.tc-plugin-info:hover .tc-plugin-info > .tc-plugin-info-chunk > svg {
 	fill: #333333;
@@ -1921,7 +1772,7 @@ a.tc-tiddlylink:hover {
 	height: 2em;
 }.tc-plugin-info-dropdown {
 	border: 1px solid #bbb;
-	background: #ffffff;
+	background: #fbfbfb;
 	margin-top: -8px;
 }.tc-plugin-info-dropdown-message {
 	background: #ecf2ff;
@@ -1930,7 +1781,7 @@ a.tc-tiddlylink:hover {
 	font-size: 0.8em;
 }.tc-plugin-info-dropdown-body {
 	padding: 1em 1em 0 1em;
-	background: #ffffff;
+	background: #fbfbfb;
 }.tc-plugin-info-sub-plugins {
 	padding: 0.5em;
     margin: 0 1em 1em 1em;
@@ -2092,7 +1943,7 @@ a.tc-tiddlylink:hover {
 	border-top: 1px solid #cccccc;
 	border-left: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
-	background: #ffffff;
+	background: #fbfbfb;
 	margin-right: -1px;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a:hover {
 	text-decoration: none;
@@ -2219,7 +2070,7 @@ a.tc-tiddlylink:hover {
 	color: #bbb;
 }.tc-diff-tiddlers th {
 	text-align: right;
-	background: #ffffff;
+	background: #fbfbfb;
 	font-weight: normal;
 	font-style: italic;
 }.tc-diff-tiddlers pre {
@@ -2258,7 +2109,7 @@ a.tc-tiddlylink:hover {
 }/*
 ** Utility classes for SVG icons
 */.tc-fill-background {
-	fill: #ffffff;
+	fill: #fbfbfb;
 }
 
 .matched{background-color:yellow}
@@ -2278,12 +2129,12 @@ a.tc-tiddlylink:hover {
     display: block;
     padding: 4px 14px 4px 14px;
     text-decoration: none;
-    color: #5778d8; /*#5778d8;*/ 
+    color: #006d8f; /*#5778d8;*/ 
     background: transparent;
 }
 .ect-block-dropdown li[patt-selected="true"] {
-    color: #ffffff; /*#ffffff; */
-    background-color: #5778d8; /*#5778d8; */
+    color: #fbfbfb; /*#ffffff; */
+    background-color: #006d8f; /*#5778d8; */
 }
 .ect-block-dropdown li[patt-selected="true"] mark {
     background: hsl(86, 100%, 21%);
@@ -2448,6 +2299,9 @@ background-color: <<colour tiddler-info-background>>;}
 }
 }
 
+.tiddler .subtitle { 
+display: none; 
+} 
 
 .matched {background-color:#ffc;}
 .tw-context {
@@ -2460,4 +2314,6 @@ background-color: <<colour tiddler-info-background>>;}
    display: none;
 }.tc-tab-buttons {
    display: none;
-}
+}.tc-tiddler-subtitle { 
+ display: none; 
+} 
